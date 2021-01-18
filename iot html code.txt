@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+	  <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta name="Vikkey" content="Vivek Gupta & IoTMonk">
+	  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+     
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+      <title>ESP 8266 Node MCU Web APP LED Control IoT Monk</title></head>
+      <body bgcolor="#607D8B">
+   <center>
+		<h1 style="font-family: Helvetica;color: white;">ESP 12E NODEMCU CONTROLLER AND TESTER(Global)</h1>
+	</center>
+	<a href="https://api.thingspeak.com/update?api_key=ZMIOQCOHFMDGUMHE&field1=1&field2=0&field3=0&field4=0&field5=0">Forward</a><br>
+	<a href="https://api.thingspeak.com/update?api_key=ZMIOQCOHFMDGUMHE&field1=0&field2=1&field3=0&field4=0&field5=0">Backward</a><br>
+	<a href="https://api.thingspeak.com/update?api_key=ZMIOQCOHFMDGUMHE&field1=0&field2=0&field3=1&field4=0&field5=0">Right</a><br>
+	<a href="https://api.thingspeak.com/update?api_key=ZMIOQCOHFMDGUMHE&field1=0&field2=0&field3=0&field4=1&field5=0">Left</a><br>
+	<a href="https://api.thingspeak.com/update?api_key=ZMIOQCOHFMDGUMHE&field1=0&field2=0&field3=0&field4=0&field5=1">Stop</a>
+     </body>
+</html>
